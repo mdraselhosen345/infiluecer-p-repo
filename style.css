@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.header-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap:30px;
+
+}
+.nav-list a{
+    text-decoration: none;
+
+}
