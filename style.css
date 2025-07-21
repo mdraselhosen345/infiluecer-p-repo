@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body{
@@ -162,6 +162,7 @@ body{
     max-width: 960px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .collection-title{
@@ -198,6 +199,43 @@ body{
     font-weight: bold;
     margin-left: 10px;
 }
+.see-more-title{
+    color:#E02C6D;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+
+
+/*  Featured section start */
+.Featured-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 76px;
+}
+.featured-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#0A0826;
+    margin-bottom: 16px;
+}
+.featured-pragrahp {
+    font-size: 16px;
+    font-weight: bold;
+    color:#6C6C6C;
+}
+.Featured-btn{
+   background-color: #E02C6D;
+    color:white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    
+}
 
 
 
@@ -232,6 +270,7 @@ body{
     .backgorund-container{
         margin-left: 20px;
         flex-direction: column-reverse;
+        text-align: center;
     }
     .backgorund-photo img{
         width: 100%;
@@ -250,6 +289,17 @@ body{
         gap: 20px;
         text-align: center;
         margin: 40px;
+    }
+    .Featured-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+
+    }
+    .backgorund-container{
+
     }
     
 }
@@ -285,7 +335,11 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
-      max-width: 100%;
-        margin: 40px;
+        max-width: 100%;
+        margin: 20px;
+        margin-right: 20px;
+    }
+    .Featured-container{
+        margin-left: 20px;
     }
 }
