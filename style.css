@@ -239,17 +239,15 @@ body{
 
 
 /* footer section start */
-.footer-container{
+footer{
     max-width: 100%;
     margin: 0 auto;
     width: 100%;
-    height: 239px;
+    height: 300px;
     background-color:#0A0826;
     text-align: center;
-    margin-top: 100px;
-  
-
 }
+
 .footer-title{
     padding-top: 50px;
     color:white;
@@ -276,17 +274,18 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-.footer-icon{
+
+/* iconbar start */
+
+
+.footer-icons ul{
     display: flex;
-    
-
+    list-style: none;
+    gap:50px;
+    font-size:20px ;
+    justify-content: center;
+    margin-right: 40px;
 }
-.footer-icon ul {
-        
-}
-
-
-
 
 
 
@@ -339,6 +338,9 @@ body{
         gap: 20px;
         text-align: center;
 
+    }
+    .footer-icons{
+        font-size: 14px;
     }
     
     
